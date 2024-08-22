@@ -12,7 +12,7 @@ repo {
   // This name is shown in the header nav to navigate users home
   friendlyName = "Python Fundamentals Review Lab"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk"
+  name = "python-fundamentals-review-lab"
   type = "Lab"
 }
 
