@@ -3,16 +3,16 @@
   <span class="subhead">Exercise</span>
 </h1>
 
-In this lab, you will use the fundamental Python skills we've learned to create a simple, interactive application. You can choose to work on the lab individually or with your classmates, but each person must turn in their own work.
+In this lab, you will use the fundamental Python skills we've learned to create a simple, interactive terminal application. You can choose to work on the lab individually or with your classmates, but each person must turn in their own work.
 
 ## Application Options
 
 Choose one of the following for your lab:
 
-| Application                                | Problem Statement                                                                                                                                                                         |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Option No. 1: Personal Library Manager** | Create a simple personal library management application that allows users to catalog their books and write brief reviews. Store all data in a `.csv` file for easy access and management. |
-| **Option No. 2: Study Guide App**          | Build an app that allows users to create and manage a small set of review questions to help them prepare for any class or exam. This app will be a useful tool for quick study sessions.  |
+| Application                                | Problem Statement                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Option No. 1: Personal Library Manager** | Create a simple personal library management application in the terminal that allows users to catalog their books and write brief reviews. Data can be stored either in a .csv file for easy retrieval and organization or in a local object/dictionary for in-memory management.                                                                                           |
+| **Option No. 2: Study Guide App**          | Create a terminal-based application that allows users to generate and manage a set of review questions. This tool will help users efficiently prepare for exams or study sessions by providing a structured way to review material. Data can be stored either in a .csv file for easy retrieval and organization or in a local object/dictionary for in-memory management. |
 
 ## Deliverables
 
@@ -26,7 +26,7 @@ No matter what project you choose, you will submit a Jupyter Notebook containing
 
 **Objective**:
 
-Create a simple personal library management application that allows users to catalog their books and write brief reviews. This lab will help you practice working with Python, handling user input, and managing data with `.csv` files.
+Develop a straightforward personal library management application that operates entirely within the terminal. This application will enable users to catalog their books and write brief reviews directly from the command line. Data can be managed using a `.csv` file for persistent storage or a local object/dictionary for in-memory management. Through this project, you'll practice using Python, handling user input, and managing data.
 
 **Requirements**:
 
@@ -51,6 +51,7 @@ Your personal library manager should allow users to:
      - **Author**: The author of the book.
 
      - Example:
+
        ```plaintext
        Title: The Alchemist
        Author: Paulo Coelho
@@ -61,6 +62,7 @@ Your personal library manager should allow users to:
    - Print a list of all books in the library, including the title and author.
 
    - Example:
+
      ```plaintext
      1. The Alchemist by Paulo Coelho
      2. The Little Prince by Antoine de Saint-Exupéry
@@ -73,6 +75,7 @@ Your personal library manager should allow users to:
    - Display the review alongside the book details when viewing all books.
 
    - Example:
+
      ```plaintext
      Title: The Alchemist
      Review: "A magical story about following your dreams."
@@ -94,7 +97,7 @@ Your personal library manager should allow users to:
 
 **Objective**:
 
-Build a simple study review application that helps users prepare for exams by creating and managing a small set of review questions. This lab will strengthen your Python skills and introduce you to working with files and user input.
+Develop a straightforward study review application that runs in the terminal, allowing users to create and manage a set of review questions to aid in exam preparation. Users will have the option to store data in a `.csv` file for persistent storage or in a local object/dictionary for in-memory use. This lab will enhance your Python skills and introduce you to handling files and user input through a command-line interface.
 
 **Requirements**:
 
@@ -119,6 +122,7 @@ Your study review app should allow users to:
      - **Correct Response**: The correct answer from the list (ex. "Paris").
 
    - Example:
+
      ```plaintext
      Question: What is the capital of France?
      Responses: Paris, London, Berlin
@@ -138,6 +142,7 @@ Your study review app should allow users to:
      - Inform the user if their answer was correct or incorrect.
 
    - Example:
+
      ```plaintext
      Question: What is the capital of France?
      A) Paris
